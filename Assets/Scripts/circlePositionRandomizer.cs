@@ -13,7 +13,7 @@ public class circlePositionRandomizer : MonoBehaviour
 
     public void RandomizePosition()
     {
-        randomAngle = Random.Range(0f, TWOPI);
+        randomAngle = Random.Range(0f, TWOPI);                  // random angle from 0 to 2pi
         spawnX = radius * Mathf.Cos(randomAngle) + center.x;
         spawnZ = radius * Mathf.Sin(randomAngle) + center.y;
         transform.localPosition = new Vector3(spawnX, 0, spawnZ);
