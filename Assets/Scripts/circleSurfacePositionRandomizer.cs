@@ -14,7 +14,7 @@ public class circleSurfacePositionRandomizer : MonoBehaviour
 
     private float randomNormalized()
     {
-        return Random.Range(0.0f, 1.0f);
+        return Random.Range(0.0f, 1.0f);        // float number in the range of 0 to 1
     }
 
     public void RandomizePosition()
