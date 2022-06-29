@@ -1,10 +1,17 @@
 # Selectio
-Time management and task tracking app
 
-Technologies used: Angular, TypeScript, JavaScript, HTML, CSS, MySQL, Node.js, Express, Firebase, Git.
+3D online ecosystem simulation
 
-- Created a front-end application using the Angular framework;
-- Designed a MySQL database to store tasks data;
-- Developed REST API with NodeJs for MySQL database post, get, put and delete requests;
-- Created user authentification with email+password and Google account using Firebase;
-- Designed user interface with MaterialUI.
+Website: https://pro-noobster.itch.io/selectio
+
+Technologies used: C#, HTML5, Unity3D, Git;
+
+- Creatures' mutation, natural selection, and evolution algorithms implemented with C#;
+- 3D visualization of the ecosystem;
+- An intuitive user interface and simulation settings menu have been developed;
+- The application has the ability to build graphs of time dependences based on data on the population of creatures, their evolution and need for food;
+- The simulation is available both online with a WebGL build and on the desktop;
+- The application also allows to simulate food chains.
+
+The application allows to establish the ratio of population change to environmental pollution; the ratio of population change of one species to population change of another.
+Determining the impact of environmental pollution on the lives of animal populations is of scientific and practical interest.
